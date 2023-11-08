@@ -1,0 +1,46 @@
+* { 
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+button {
+    background-color: gray;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.container {
+    margin-top: 50px;
+    background-color: teal;
+    border: 5px solid black;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+
+.startBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
