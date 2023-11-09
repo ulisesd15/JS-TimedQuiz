@@ -16,7 +16,7 @@ var questions = [
     },
     {
         title: "Which of the following methods can be used to display data in some form using Javascript?",
-        choices: ["document.write()","console.log()","window.alert()","All of the above"],
+        choices: ["document. write()","console. log()","window. alert()","All of the above"],
         answer: "All of above",
     },
 ]
