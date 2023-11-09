@@ -34,9 +34,9 @@ function start() {
 
     timer = setInterval(function() {
         timeLeft--;
-        document.getElementById("timeLeft").innerHTMl = timeLeft;
+        document.getElementById("timeLeft").innerHTML = timeLeft;
 
-        if (timeLeft <= 0) {
+        if (timeLeft === 0) {
             clearInterval(timer);
             endGame();
         }
@@ -55,7 +55,7 @@ function endGame() {
     <input type="text" id="name" placeholder="Please enter your initals">
     <button onclick="setScore()">Set score!</button>`;
 
-    document.getElementById("quizBody").ATTRIBUTE_NODE.innerHTMl = quizContent;
+    document.getElementById("quizBody").innerHTML = quizContent;
 }
 
 function setScore() {
