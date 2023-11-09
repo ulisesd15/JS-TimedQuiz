@@ -21,7 +21,7 @@ button {
 
 button:hover {
     transition-duration: .4ms;
-    background-color: lightcoral;
+    background-color: gray;
 }
 
 nav {
@@ -52,8 +52,7 @@ nav {
 }
 
 .quizBody {
-    justify-content: center;
+    
     text-align: center;
-    padding: auto;
     
 }
